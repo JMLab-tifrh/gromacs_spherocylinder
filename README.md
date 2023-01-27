@@ -7,7 +7,8 @@ The flat bottom position restraint has been tweaked to include the shape.<br>
 
 ### usage<br>
 ```[ position_restraints ]```<br>
-```<id> <type> <shape> <radius> <force constant> <length (excluding end caps)> <centre x> <centre y> <centre z>```<br>
+```<id> <type> <shape> <radius> <force constant> <length> <centre x> <centre y> <centre z>```<br>
+** the length is the length of the cylinderical part only (excluding end caps)<br>
 
 Example:<br>
 ```1       2       6       6.157   310.000 32.400  6.157   6.157   22.357```<br>
